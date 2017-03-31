@@ -1,0 +1,14 @@
+/* */
+
+module tpu(
+input sys_clock,     //clock do barramento AMBA
+input valid_out,     //protocolo de comunicaçao AMBA
+input [7:0]data_out, //protocolo de comunicaçao AMBA
+output ready_out,    //protocolo de comunicaçao AMBA
+output g_clk_tx,     //Clock da modulaçao (BSG)
+output g_clk_rx,     //Clock da demodulaçao (BD)
+output tpu_int       //Sinal de Interrupçao
+);
+
+
+endmodule 

@@ -1,0 +1,34 @@
+module tb;
+
+logic sys_clock = 0,
+logic reset,
+logic[7:0]tx_slot,
+logic [7:0]rx_slot,
+logic g_clk_tx,
+logic g_clk_rx,
+logic [6:0]tpuint_byte0,
+logic [8:0]tpuint_byte1
+
+timer t1 (.sys_clock(sys_clock), .reset(reset), .tx_slot(tx_slot), .rx_slot(rx_slot), .g_clk_tx(g_clk_tx), .g_clk_rx(g_clk_rx), .tpuint_byte0(tpuint_byte0), .tpuint_byte1(tpuint_byte1));
+
+always 
+begin
+	#1;
+	sys_clock = ~sys_clock;
+end 
+
+initial
+begin
+	#3;
+	reset = 1;
+	#3
+	reset = 0;
+end
+
+initial
+begin
+	tx_slot = 7'd10;
+	rx_slot = 7'd5;
+end
+
+endmodule 

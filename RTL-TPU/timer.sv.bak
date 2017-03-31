@@ -1,0 +1,33 @@
+module timer(
+input sys_clock,
+input rsttpu,
+  output reg [6:0]tpuint_byte0,
+  output reg [8:0]tpuint_byte1
+);
+
+  logic [15:0]out;
+  
+  always @ (posedge clock) begin 
+    if  (rsttpu == 0) begin
+		out = 16'd0;
+    end
+	else
+	begin
+      if (out == 16'd0) begin
+			out = out + 15'd1;
+      end
+      else if (out == 16'd65535) begin
+        out = 16'd0;
+      end
+      else
+			out = out + 16'd1;
+
+	end
+    tpuint_byte1 = out[8:0];
+    tpuint_byte0 = out[15:9];
+			
+ end
+ 
+
+
+endmodule 

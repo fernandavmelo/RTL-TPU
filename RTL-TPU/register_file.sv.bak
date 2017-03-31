@@ -1,0 +1,10 @@
+module register_file(
+	input sys_clock;
+	input reset,
+	input reg [7:0]tx_slot,
+	input reg [7:0]rx_slot,
+	output reg [15:0]counter
+
+);
+
+endmodule 

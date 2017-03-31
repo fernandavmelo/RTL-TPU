@@ -1,0 +1,26 @@
+module gerador_clock(
+input sys_clock,
+input reset,
+input reg [7:0]tx_slot,
+input reg [7:0]rx_slot,
+output reg g_clk_tx,
+output reg g_clk_rx,
+input reg [6:0]tpuint_byte0,
+input reg [8:0]tpuint_byte1
+);
+
+ always_comb
+ begin
+	if (tpuint_byte0 == tx_slot[6:0] && (tpuint_byte1 <= 7'd1111111))
+		g_clk_tx = sys_clock;
+	else
+		g_clk_tx = 0;
+		
+	if (tpuint_byte0 == rx_slot[6:0] && (tpuint_byte1 <= 7'd1111111))
+		g_clk_rx = sys_clock;
+	else
+		g_clk_rx = 0;
+ 
+ end 
+ 
+ endmodule 

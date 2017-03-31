@@ -1,0 +1,120 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/sarahy/Desktop/TPU old/simulation/modelsim
+vgerador_clock
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+I0F>HKM<L0>I^T;5SL@V<23
+VZ<_8AND1N7W4ELM?@J[`^1
+S1
+Z2 d/home/sarahy/Desktop/TPU old/simulation/modelsim
+w1490049689
+8/home/sarahy/Desktop/TPU old/gerador_clock.sv
+F/home/sarahy/Desktop/TPU old/gerador_clock.sv
+L0 10
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-sv -work work -O0
+Z5 !s92 -sv -work work {+incdir+/home/sarahy/Desktop/TPU old} -O0
+!i10b 1
+!s100 I>zJh3JV965SEoAS]UH:23
+!s105 gerador_clock_sv_unit
+!s85 0
+!s108 1490211014.196420
+!s107 /home/sarahy/Desktop/TPU old/gerador_clock.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/sarahy/Desktop/TPU old|/home/sarahy/Desktop/TPU old/gerador_clock.sv|
+!s101 -O0
+vregister_file
+R1
+I8L4f=jhBl3WYWiznhZa0o3
+VJh8m4=:kmJT0PGQikEi:U0
+S1
+R2
+w1490209830
+8/home/sarahy/Desktop/TPU old/register_file.sv
+F/home/sarahy/Desktop/TPU old/register_file.sv
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 IM4SI7CfGNJH_z=;]>Ij00
+!s105 register_file_sv_unit
+!s85 0
+!s108 1490211014.212058
+!s107 /home/sarahy/Desktop/TPU old/register_file.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/sarahy/Desktop/TPU old|/home/sarahy/Desktop/TPU old/register_file.sv|
+!s101 -O0
+vtb
+R1
+!i10b 1
+!s100 >aobL7m]M>FiLeA[gOIhY2
+I5TN4cQ;m``:]TR>;IzXaF2
+VV@Xn<HnSRM[I5c1?BH]3a3
+!s105 tb_sv_unit
+S1
+R2
+w1490210549
+8/home/sarahy/Desktop/TPU old/tb.sv
+F/home/sarahy/Desktop/TPU old/tb.sv
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1490211014.227790
+!s107 /home/sarahy/Desktop/TPU old/tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/sarahy/Desktop/TPU old|/home/sarahy/Desktop/TPU old/tb.sv|
+!s101 -O0
+R4
+R5
+vtimer
+R1
+InANLS5k5U^CfedO=nQ0SK0
+VAo2ne?@W3F7izRb5[mNKL3
+S1
+R2
+w1490210989
+8/home/sarahy/Desktop/TPU old/timer.sv
+F/home/sarahy/Desktop/TPU old/timer.sv
+L0 6
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 4?H:XEa[eKoeKBCW3[;8^3
+!s105 timer_sv_unit
+!s85 0
+!s108 1490211014.181016
+!s107 /home/sarahy/Desktop/TPU old/timer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/sarahy/Desktop/TPU old|/home/sarahy/Desktop/TPU old/timer.sv|
+!s101 -O0
+vtpu
+R1
+IJOG?1PAo_I7VFgJI8eQR50
+Vg6HIT0?7n1KgCd>^f^1XL0
+S1
+R2
+w1490139971
+8/home/sarahy/Desktop/TPU old/tpu.sv
+F/home/sarahy/Desktop/TPU old/tpu.sv
+L0 6
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 H19S[e6iSJ8ze284S]0La0
+!s105 tpu_sv_unit
+!s85 0
+!s108 1490211014.165748
+!s107 /home/sarahy/Desktop/TPU old/tpu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/sarahy/Desktop/TPU old|/home/sarahy/Desktop/TPU old/tpu.sv|
+!s101 -O0
